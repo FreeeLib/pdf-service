@@ -15,7 +15,6 @@ const sequelize = new Sequelize(
   }
 );
 
-//Do Not Change: The order of this matters during associations. Parent table should always be below the child table.
 const db = {
   sequelize,
 };
